@@ -1,4 +1,4 @@
-/* Reset & Base */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -6,124 +6,108 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9fafb;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
   color: #333;
   line-height: 1.6;
 }
 
 /* Header */
 .header {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header h1 {
   font-size: 24px;
-  color: #111827;
+  color: #2b2b2b;
 }
 
 .header nav a {
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
-  color: #2563eb;
-  font-weight: 500;
+  color: #0077cc;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .header nav a:hover {
-  color: #1d4ed8;
+  color: #005fa3;
 }
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to right, #cbd5e1, #fbcfe8);
+  background: linear-gradient(to right, #e0f2fe, #fce7f3);
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .hero h2 {
   font-size: 36px;
   margin-bottom: 15px;
-  color: #1f2937;
 }
 
 .hero p {
   font-size: 18px;
-  color: #4b5563;
+  color: #444;
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* General Section */
+/* Section Wrapper */
 .section {
-  padding: 60px 20px;
-  max-width: 1100px;
+  padding: 50px 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
 .section h3 {
   font-size: 28px;
-  margin-bottom: 30px;
-  color: #111827;
+  margin-bottom: 25px;
   text-align: center;
+  color: #222;
 }
 
-/* Grid Layout */
+/* Grid Layout for Skills/Projects */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
 }
 
-/* Skills Box */
+/* Individual Grid Items */
 .grid > div {
-  background: white;
+  background-color: white;
   padding: 20px;
+  border-radius: 10px;
   text-align: center;
-  border-radius: 12px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
-  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
 
 .grid > div:hover {
-  transform: translateY(-5px);
+  transform: scale(1.03);
 }
 
-/* Project Cards */
-.projects .grid > div {
-  background: #ffffff;
-  padding: 25px;
-  border-left: 4px solid #3b82f6;
-  border-radius: 10px;
-  transition: box-shadow 0.2s ease;
-}
-
-.projects .grid > div:hover {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
+/* Project Section Styling */
 .projects h4 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #1f2937;
 }
 
 .projects p {
-  font-size: 15px;
-  color: #6b7280;
+  font-size: 14px;
+  color: #666;
   margin-bottom: 10px;
 }
 
 .projects a {
   text-decoration: none;
-  color: #2563eb;
+  color: #1d4ed8;
   font-weight: bold;
 }
 
@@ -133,22 +117,16 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #111827;
-  color: #ffffff;
+  background-color: #1f2937;
+  color: white;
   text-align: center;
-  padding: 25px 15px;
-  margin-top: 40px;
-}
-
-.footer .links {
-  margin-top: 10px;
+  padding: 30px 15px;
 }
 
 .footer a {
   color: #60a5fa;
   margin: 0 12px;
   text-decoration: none;
-  font-size: 14px;
 }
 
 .footer a:hover {
