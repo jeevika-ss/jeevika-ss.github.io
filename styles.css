@@ -1,0 +1,157 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #111827;
+}
+
+.header nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #1d4ed8;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #cbd5e1, #fbcfe8);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #4b5563;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* General Section */
+.section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #111827;
+  text-align: center;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+/* Skills Box */
+.grid > div {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+
+.grid > div:hover {
+  transform: translateY(-5px);
+}
+
+/* Project Cards */
+.projects .grid > div {
+  background: #ffffff;
+  padding: 25px;
+  border-left: 4px solid #3b82f6;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+}
+
+.projects .grid > div:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.projects h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.projects p {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #111827;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+
+.footer .links {
+  margin-top: 10px;
+}
+
+.footer a {
+  color: #60a5fa;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: #93c5fd;
+}
+
