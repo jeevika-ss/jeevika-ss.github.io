@@ -1,135 +1,62 @@
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bite Force | Beginner Web Dev Team</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
-  line-height: 1.6;
-}
+  <!-- Header -->
+  <header class="header">
+    <h1>🦷 Bite Force</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-/* Header */
-.header {
-  background-color: #fff;
-  padding: 20px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Welcome to Bite Force!</h2>
+    <p>We are a beginner web development team of first-year students from Shiv Nadar University, exploring the world of coding together.</p>
+  </section>
 
-.header h1 {
-  font-size: 24px;
-  color: #2b2b2b;
-}
+  <!-- About -->
+  <section id="about" class="section">
+    <h3>Our Team</h3>
+    <div class="grid">
+      <div>👩‍💻 Jeevika</div>
+      <div>👩‍💻 Samiksha</div>
+      <div>👩‍💻 Arshia</div>
+    </div>
+    <p style="text-align: center; margin-top: 20px;">
+      We're 1st year students of <strong>Electrical and Computer Engineering (ECE)</strong> at <strong>Shiv Nadar University</strong>. This is our very first website — and we're excited to learn and grow!
+    </p>
+  </section>
 
-.header nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #0077cc;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h3>Skills We're Learning</h3>
+    <div class="grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>Responsive Design</div>
+      <div>Teamwork</div>
+      <div>Git & GitHub</div>
+      <div>Debugging Basics</div>
+    </div>
+  </section>
 
-.header nav a:hover {
-  color: #005fa3;
-}
+  <!-- Footer / Contact -->
+  <footer id="contact" class="footer">
+    <p>📫 Contact us at: <a href="mailto:xxx@gmail.com">xxx@gmail.com</a></p>
+    <p>© 2025 Bite Force Team. Proud beginners learning together 💪</p>
+  </footer>
 
-/* Hero Section */
-.hero {
-  background: linear-gradient(to right, #e0f2fe, #fce7f3);
-  text-align: center;
-  padding: 60px 20px;
-}
+</body>
+</html>
 
-.hero h2 {
-  font-size: 36px;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  font-size: 18px;
-  color: #444;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* Section Wrapper */
-.section {
-  padding: 50px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.section h3 {
-  font-size: 28px;
-  margin-bottom: 25px;
-  text-align: center;
-  color: #222;
-}
-
-/* Grid Layout for Skills/Projects */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
-}
-
-/* Individual Grid Items */
-.grid > div {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
-}
-
-.grid > div:hover {
-  transform: scale(1.03);
-}
-
-/* Project Section Styling */
-.projects h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.projects p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.projects a {
-  text-decoration: none;
-  color: #1d4ed8;
-  font-weight: bold;
-}
-
-.projects a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-.footer {
-  background-color: #1f2937;
-  color: white;
-  text-align: center;
-  padding: 30px 15px;
-}
-
-.footer a {
-  color: #60a5fa;
-  margin: 0 12px;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  color: #93c5fd;
-}
 
