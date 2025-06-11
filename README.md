@@ -1,1 +1,66 @@
-# jeevika-ss.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeevika's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>👩‍💻 Jeevika's Portfolio</h1>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section class="hero">
+    <h2>Hello, I'm Jeevika 👋</h2>
+    <p>I create modern, responsive web apps and love solving problems through code.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h3>Skills</h3>
+    <div class="grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Git</div>
+      <div>React</div>
+      <div>Figma</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <h3>Projects</h3>
+    <div class="grid">
+      <div>
+        <h4>Project 1</h4>
+        <p>Brief description of the project.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div>
+        <h4>Project 2</h4>
+        <p>Brief description of the project.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <p>© 2025 Jeevika. Made with ❤️</p>
+    <div class="links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="mailto:your-email@example.com">Email</a>
+    </div>
+  </footer>
+</body>
+</html>
