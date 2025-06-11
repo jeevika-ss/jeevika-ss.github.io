@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jeevika's Portfolio</title>
+  <title>Byte Force's Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <!-- Header -->
   <header class="header">
-    <h1>👩‍💻 Jeevika's Portfolio</h1>
+    <h1>👩‍💻 Byte Force's Portfolio</h1>
     <nav>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
@@ -19,7 +19,7 @@
 
   <!-- About -->
   <section class="hero">
-    <h2>Hello, I'm Jeevika 👋</h2>
+    <h2>Hello, we are Byte Force 👋</h2>
     <p>I create modern, responsive web apps and love solving problems through code.</p>
   </section>
 
